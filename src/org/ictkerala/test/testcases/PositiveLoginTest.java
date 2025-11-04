@@ -44,9 +44,9 @@ public class PositiveLoginTest extends TestBase {
         try {
             WebElement logoutBtn = driver.findElement(logoutButton);
             Assert.assertTrue(logoutBtn.isDisplayed(), "Log out button is not displayed!");
-            System.out.println("✅ Log out button is successfully displayed after login!");
+            System.out.println(" Log out button is successfully displayed after login!");
         } catch (NoSuchElementException e) {
-            Assert.fail("❌ Log out button is not found on the page!", e);
+            Assert.fail(" Log out button is not found on the page!", e);
         }
     }
 
